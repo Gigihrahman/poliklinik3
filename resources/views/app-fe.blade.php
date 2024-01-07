@@ -56,7 +56,43 @@
     @endif
     @yield('content')
 </div>
-
+<section class="py-5 border-bottom">
+        <div class="container px-5 my-5 px-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bolder">Testimoni Pasien</h2>
+                <p class="lead mb-0">Para Pasien yang Setia</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <!-- Testimonial 1-->
+                    <div class="card mb-4">
+                        <div class="card-body p-4">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                <div class="ms-4">
+                                    <p class="mb-1">Pelayanan berobat dengan web ini sangat cepat!</p>
+                                    <div class="small text-muted">- Adi, Semarang</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2-->
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                <div class="ms-4">
+                                    <p class="mb-1">Baru ini merasakan mudahnya berobat dengan web ini.
+                                        </p>
+                                    <div class="small text-muted">- Ida, Semarang</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
